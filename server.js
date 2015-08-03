@@ -54,7 +54,7 @@ slack.on('message', function (m) {
     console.log(channel.name + ':' + user.name + ':' + m.text);
 
     var messageText = '';
-    if(isDirect) {
+    if(directMessage) {
        messageText = m.text.substr(makeMention(slack.self.id).length + 1).trim();
     } else {
       messageText = m.text;
