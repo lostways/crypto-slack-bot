@@ -1,0 +1,11 @@
+{
+  "name": "crypto-slack-bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "crypto-classic-caesar": "^1.0.0",
+    "crypto-classic-otp": "^1.0.0",
+    "crypto-classic-playfair": "^1.0.0",
+    "crypto-classic-utils": "^1.0.0",
+    "slack-client": "^1.4.1"
+  }
+}
